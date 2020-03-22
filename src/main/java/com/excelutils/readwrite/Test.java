@@ -23,7 +23,6 @@ public class Test {
         String bbb = test01.getStringAbs("我是你二大爷");
         byte[] bytes = new byte[128];
         SecureRandom secureRandom = new SecureRandom();
-        IdentityHashMap
         secureRandom.nextBytes(bytes);
         String algorithm = secureRandom.getAlgorithm();
         System.out.println(algorithm);
